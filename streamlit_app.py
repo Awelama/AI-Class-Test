@@ -1,4 +1,4 @@
-# DCI 691 Build 2 - Streamlit Bot (R. Beghetto, fall 2024)
+# Grantbuddy - Streamlit Bot (Prince, fall 2024)
 # Importing necessary libraries
 # This section brings in external code libraries that add functionality to our program.
 # Streamlit (st) is used to create web applications, google.generativeai helps with AI text generation,
@@ -12,7 +12,7 @@ from PIL import Image
 # This sets up the basic properties of the web application.
 # It sets the title that appears in the browser tab and makes the layout use the full width of the screen.
 # You can customize the page title (e.g., Creative Assistant" and layout by modifying these parameters.
-st.set_page_config(page_title="Streamlit Chatbot", layout="wide")
+st.set_page_config(page_title="Grantbuddy", layout="wide")
 
 # Display image
 # This code attempts to open and display an image file named 'Build2.png'.
