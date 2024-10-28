@@ -133,7 +133,7 @@ for message in st.session_state.messages:
 # User input
 # This creates a text input field where users can type their messages to the chatbot.
 # The placeholder text "Your message:" can be customized to any desired prompt, e.g., "Message Creative Assistant...".
-user_input = st.chat_input("Your message:")
+user_input = st.chat_input("Describe what you want Grantbuddy to do and provide the necessary background information. An example is like "I'm from a small NGO in Kenya focused on girls' education. We need help creating a proposal for a $50,000 grant to expand our after-school tutoring program. Can you guide me through the process?":")
 
 if user_input:
     # Add user message to chat history
