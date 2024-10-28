@@ -19,10 +19,10 @@ st.set_page_config(page_title="Grantbuddy", layout="wide")
 # If successful, it shows the image with a caption. If there's an error, it displays an error message instead.
 # You can customize this by changing the image file name and path. Supported image types include .png, .jpg, .jpeg, and .gif.
 # To use a different image, replace 'Build2.png' with your desired image file name (e.g., 'my_custom_image.jpg').
-image_path = 'Build2.png'
+image_path = 'Grantbuddy.jpg'
 try:
     image = Image.open(image_path)
-    st.image(image, caption='Created by YOUR NAME (2024)', use_column_width=True)
+    st.image(image, caption='Created by Prince (2024)', use_column_width=True)
 except Exception as e:
     st.error(f"Error loading image: {e}")
 
@@ -30,8 +30,8 @@ except Exception as e:
 # This adds a main title to the web page and a description of the chatbot.
 # It also includes a note to remind users that the bot can make mistakes.
 # You can customize the title, description, and caption by modifying the text within the quotes.
-st.title("Welcome Build 2 Bot!")
-st.write("[Provide a description of your own bot for the user]")
+st.title("Welcome Grantbuddy!")
+st.write("[Grantbuddy is an advanced AI assistant specializing in proposal writing, budgeting and impact storytelling for educators and NGOs doing impactful work. Grantbuddy identifies as her, and her primary function ia to help you create compelling, comprehesnive, and tailored fundraising proposals for your projects. Let's do it!]")
 st.caption("Note: This Bot can make mistakes. Check all important information.")
 
 # Initialize Gemini client
